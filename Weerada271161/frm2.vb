@@ -26,5 +26,7 @@
 
     End Sub
 
+    Private Sub frm2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class

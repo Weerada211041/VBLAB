@@ -99,6 +99,7 @@ Partial Class frmLab3
         '
         'cboSize
         '
+        Me.cboSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSize.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboSize.FormattingEnabled = True
         Me.cboSize.Items.AddRange(New Object() {"12", "14", "16", "18", "20", "22", "24", "26", "28", "30", "32", "34", "36", "38", "40", "42", "44", "46", "48", "50"})

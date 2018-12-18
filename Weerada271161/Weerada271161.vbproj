@@ -85,10 +85,22 @@
     <Compile Include="frm2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmJob4ทำใหม่.Designer.vb">
+      <DependentUpon>frmJob4ทำใหม่.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJob4ทำใหม่.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmLab3.Designer.vb">
       <DependentUpon>frmLab3.vb</DependentUpon>
     </Compile>
     <Compile Include="frmLab3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLab5.Designer.vb">
+      <DependentUpon>frmLab5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab5.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -114,8 +126,14 @@
     <EmbeddedResource Include="frm2.resx">
       <DependentUpon>frm2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmJob4ทำใหม่.resx">
+      <DependentUpon>frmJob4ทำใหม่.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLab3.resx">
       <DependentUpon>frmLab3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab5.resx">
+      <DependentUpon>frmLab5.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
